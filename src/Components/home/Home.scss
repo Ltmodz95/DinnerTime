@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "elegant";
-  src: url("../../assets/fonts/GreatVibes-Regular.ttf");
-}
-
 .home-container {
   width: 100%;
   height: 100%;
@@ -42,6 +37,13 @@
         &:hover {
           border-color: #ffba15;
         }
+      }
+    }
+    .all-recipes{
+      margin-top: 10px;
+      text-align: center;
+      a{
+        color: #fff;
       }
     }
   }

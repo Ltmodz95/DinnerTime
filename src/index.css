@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "elegant";
+  src: url("./assets/fonts/GreatVibes-Regular.ttf");
+}
+
 *{
   box-sizing: border-box;
 }

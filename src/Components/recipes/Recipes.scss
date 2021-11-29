@@ -1,0 +1,8 @@
+.recipes-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,calc(25% - 30px));
+    width: 100%;
+    row-gap: 40px;
+    column-gap: 40px;
+    max-width: 100%
+}
