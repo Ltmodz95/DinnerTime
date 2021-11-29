@@ -4,6 +4,7 @@ import clock from '../../assets/images/clock.png';
 import serving from '../../assets/images/serving.png';
 import comment from '../../assets/images/comment.png';
 import './Recipe.scss';
+import { Rating } from 'react-simple-star-rating';
 
 export default function Recipe() {
 
@@ -19,6 +20,13 @@ export default function Recipe() {
                     <div>Easy</div>
                     <div><img src={comment}/> &nbsp;5</div>
                 </div>
+                <br/>
+                <Rating
+                size={25}
+                onClick={() => { }}
+                readonly={true}
+                ratingValue={3}
+            />
             </div>
             <div className="more-info">
                 <div className="ingridents-steps">
