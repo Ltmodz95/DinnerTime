@@ -17,7 +17,7 @@ export default function Recipe() {
     const { id } = useParams();
     const [recipe, setRecipe] = useState<any>(null)
     useEffect(() => {
-        axios.get(`http://127.0.0.1:3000/recipes/${id}`)
+        axios.get(`https://hidden-bayou-38352.herokuapp.com/recipes/${id}`)
             .then((response: any) => {
                 setRecipe(response.data.recipes)
             })

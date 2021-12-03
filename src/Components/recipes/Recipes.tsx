@@ -12,7 +12,7 @@ export default function Recipes() {
         setselectedPage(e.selected)
     }
     useEffect(()=>{
-        axios.get(`http://127.0.0.1:3000/recipes?offset=${selectedPage}`)
+        axios.get(`https://hidden-bayou-38352.herokuapp.com/recipes?offset=${selectedPage}`)
         .then((response: any) => {
             console.log(response)
             setrecipes(response.data.recipes)
