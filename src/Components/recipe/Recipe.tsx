@@ -19,9 +19,9 @@ export default function Recipe() {
     useEffect(() => {
         axios.get(`https://hidden-bayou-38352.herokuapp.com/recipes/${id}`)
             .then((response: any) => {
-                setRecipe(response.data.recipes)
+                setRecipe(response.data)
             })
-    }, [id])
+    }, [recipe])
 
     return (
         <div className="recipe-container">

@@ -52,7 +52,7 @@ export default function RecipeItem(props: any) {
                     </div>)
                 })}
             </div>
-            <Link className="read-more" to={`recipe/${recipe.id}`}>Read More</Link>
+            <Link className="read-more" to={`/recipe/${recipe.id}`}>Read More</Link>
         </div>
     )
 }
