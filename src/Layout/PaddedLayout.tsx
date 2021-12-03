@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React from 'react'
 import Header from '../Components/header/Header'
 import './Layouts.scss'
 export default function PaddedLayout(props: any) {

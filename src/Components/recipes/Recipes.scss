@@ -6,3 +6,33 @@
     column-gap: 40px;
     max-width: 100%
 }
+
+
+.pagination {
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    .selected {
+      transition: 0.4s ease-in-out;
+      border-radius: 5px;
+      background-color: #59abe3;
+      color:#fff;
+    }
+    li {
+      padding: 10px;
+      transition: 0.4s ease-in-out;
+      border-radius: 5px;
+      &:hover {
+        background-color: #59abe3;
+        color: #fff;
+      }
+      margin: 10px;
+      a {
+        cursor: pointer;
+      }
+    }
+  }
+  
