@@ -21,7 +21,7 @@ export default function Recipe() {
             .then((response: any) => {
                 setRecipe(response.data)
             })
-    }, [recipe])
+    }, [id])
 
     return (
         <div className="recipe-container">
