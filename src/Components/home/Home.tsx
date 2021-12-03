@@ -12,7 +12,7 @@ export default function Home() {
     const handleSearchChange = (e: any) => {
         if(e.target.value != '')
         {
-            axios.get(`http://127.0.0.1:3000/recipes/search?key=${e.target.value}`)
+            axios.get(`https://hidden-bayou-38352.herokuapp.com/recipes/search?key=${e.target.value}`)
             .then((response:any) => {
                 console.log(response)
                 setRecipes(response.data)
