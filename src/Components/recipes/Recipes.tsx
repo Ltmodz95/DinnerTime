@@ -22,8 +22,8 @@ export default function Recipes() {
     return (
             <main>
                 <div className="recipes-container">
-                    {recipes.map((recipe:any)=>{
-                       return <RecipeItem recipe={recipe}></RecipeItem>
+                    {recipes.map((recipe:any, key:any)=>{
+                       return <RecipeItem key={key} recipe={recipe}></RecipeItem>
                     })}
                 </div>
 
